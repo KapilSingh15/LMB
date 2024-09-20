@@ -1,0 +1,20 @@
+.vehicle-part {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.status {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+}
+
+img {
+    max-width: 30px !important;
+}
+
+#map_canvas {
+    width: 100%;
+    height: calc(100vh - 170px);
+    z-index: 0;
+}
